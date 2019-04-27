@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://leesq.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 16:49:21 +0800</lastBuildDate>
+    
+	<atom:link href="http://leesq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Blog</title>
+      <link>http://leesq.github.io/post/first/</link>
+      <pubDate>Fri, 26 Apr 2019 16:49:21 +0800</pubDate>
+      
+      <guid>http://leesq.github.io/post/first/</guid>
+      <description> Hello Hugo ###使用hugo搭建个人博客站点 最简单的方式
+1.Hugo二进制下载地址:(https://github.com/spf13/hugo/releases) 解压，有个叫hugo.exe的程序。
+2.命令行方式 &amp;gt;hugo new site mysite
+3.&amp;gt;cd mysite 进入生成的site目录 &amp;gt;hugo new about.md 创建一个页面 &amp;gt; hugo new post/first.md 博客日志放在content的post下 这样会生成一个MarkDown格式的first.md文件 4.这样就可以用MarkDown来写文章了。附： MarkDown基本语法
+一张帅图结尾 </description>
+    </item>
+    
+  </channel>
+</rss>
