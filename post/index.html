@@ -1,166 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" Posts &middot;  My New Hugo Site" />
-  	<meta property="og:site_name" content="My New Hugo Site" />
-  	<meta property="og:url" content="http://leesq.github.io/post/" />
-    
-    
-    <meta property="og:type" content="website" />
-    
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta property="og:title" content=" Posts &middot;  My New Hugo Site" />
+  
+  <meta property="og:site_name" content="My New Hugo Site" />
+  <meta property="og:url" content="http://example.org/post/" />
+  
+  
+  <meta property="og:type" content="website" />
+  
 
   <title>
      Posts &middot;  My New Hugo Site
   </title>
 
-    <meta name="description" content="" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="http://leesq.github.io/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="http://leesq.github.io/images/apple-touch-icon.png" />
-    
-    <link rel="stylesheet" type="text/css" href="http://leesq.github.io/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-
-
-    
-      
-          <link href="http://leesq.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-      
-      
-        <link href="http://leesq.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; My New Hugo Site" />
-      
-    
-    <meta name="generator" content="Hugo 0.55.4" />
-
-    <link rel="canonical" href="http://leesq.github.io/post/" />
-
-    
-<div id="particles-js"></div>
-<script src="http://leesq.github.io/js/particles.min.js"></script>
-<script src="http://leesq.github.io/js/particles.js"></script>   
-</head>
-<body class="nav-closed">
-
+  <link rel="stylesheet" href="http://example.org/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://example.org/css/main.css" />
+  <link rel="stylesheet" href="http://example.org/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="http://example.org/css/github.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="http://example.org/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://example.org/images/apple-touch-icon.png" />
   
-
-
- <div class="site-wrapper">
-
-
-
-
-	<header class="main-header tag-head no-cover">
-
-    <nav class="main-nav overlay clearfix">
+</head>
+<body>
+    <header class="global-header"  style="background-image:url( /images/bg.jpg )">
+    <section class="header-text">
+      <h1><a href="http://example.org/">My New Hugo Site</a></h1>
       
-      
-        
-          <a class="menu-button icon-feed" href="http://leesq.github.io/post/index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-    <div class="vertical">
-
-        <div class="main-header-content inner">
-            <h1 class="page-title">
-
-              <a class="btn-bootstrap-2" href="#content">My New Hugo Site</a>
-          </h1>
-        </div>
+      <div class="sns-links hidden-print">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </div>
-    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
-</header>
 
-<main id="content" class="content" role="main">
-    
-
-	<div class="extra-pagination inner">
-    <nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 1</span>
-	
-</nav>
-
-	</div>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/post/first/">First Blog</a></h2>
-    </header>
-    <section class="post-excerpt">
-      <p>
-          <section class="post-content">
-            
-
-<h2 id="hello-hugo">Hello Hugo</h2>
-
-<p>###使用hugo搭建个人博客站点
-<em>最简单的方式</em></p>
-
-<p>1.Hugo二进制下载地址:(<a href="https://github.com/spf13/hugo/releases">https://github.com/spf13/hugo/releases</a>)  解压，有个叫hugo.exe的程序。</p>
-
-<p>2.命令行方式  &gt;hugo new site mysite</p>
-
-<p><img src="https://note.youdao.com/yws/public/resource/c6592fb3f80fcb081207bb39af6da145/xmlnote/A56267F0565C4485B238B45B518CDE52/128" alt="酱紫就阔以" title="bi is a pig" /></p>
-
-<p>3.&gt;cd mysite     进入生成的site目录
-  &gt;hugo new about.md   创建一个页面
-  &gt; hugo new post/first.md  博客日志放在content的post下
-  这样会生成一个MarkDown格式的first.md文件
-  <img src="https://note.youdao.com/yws/public/resource/c6592fb3f80fcb081207bb39af6da145/xmlnote/664C3CF366D748D08487AD7578FBCF2A/131" alt="酱紫就阔以" title="qi is beautiful" /></p>
-
-<p>4.这样就可以用MarkDown来写文章了。附：
-   <a href="https://www.jianshu.com/p/191d1e21f7ed">MarkDown基本语法</a></p>
-
-<p><strong><em>一张帅图结尾</em></strong>
-<img src="https://note.youdao.com/yws/public/resource/c6592fb3f80fcb081207bb39af6da145/xmlnote/CF714B76CE014BD0A442B2C932F08FDC/134" alt="信仰之名" title="卫庄大人威武" /></p>
-
-          </section>
-      </p>
+      
+      <a href="http://example.org/" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        &nbsp;Home
+      </a>
+      
+      
+      <a href="http://example.org/post/index.xml" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
-    <footer class="post-meta">
-        
-        
-        
-        <time class="post-date" datetime="2019-04-26T16:49:21&#43;08:00">
-            26 Apr 2019
+  </header>
+  <main class="container">
+
+<section class="article-list">
+  <h1>Posts</h1>
+  
+  <hr/>
+  <article>
+  <header>
+    <h2><a href="http://example.org/post/first/">First Blog</a></h2>
+    <div class="post-meta clearfix">
+      <div class="post-date pull-left">
+        Posted on
+        <time datetime="2019-04-26T16:49:21&#43;08:00">
+          Apr 26, 2019
         </time>
-    </footer>
+      </div>
+    </div>
+  </header>
+  <div>
+     Hello Hugo ###使用hugo搭建个人博客站点 最简单的方式
+1.Hugo二进制下载地址:(https://github.com/spf13/hugo/releases) 解压，有个叫hugo.exe的程序。
+2.命令行方式 &gt;hugo new site mysite
+3.&gt;cd mysite 进入生成的site目录 &gt;hugo new about.md 创建一个页面 &gt; hugo new post/first.md 博客日志放在content的post下 这样会生成一个MarkDown格式的first.md文件 4.这样就可以用MarkDown来写文章了。附： MarkDown基本语法
+一张帅图结尾 
+  </div>
+  
 </article>
 
-	
-
-	<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 1</span>
-	
-</nav>
-
-</main>
-
-
-
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">My New Hugo Site</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="https://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/syui/hugo-theme-air">hugo-theme-air</a> theme</section>
-        
-    </footer>
+  
+</section>
+  </main>
+  <footer class="container global-footer">
+    <div class="copyright-note pull-left">
+      
     </div>
-    <script type="text/javascript" src="http://leesq.github.io/js/jquery.js"></script>
-    <script type="text/javascript" src="http://leesq.github.io/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="http://leesq.github.io/js/index.js"></script>
+    <div class="sns-links hidden-print">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
 
+  </footer>
+
+  <script src="http://example.org/js/highlight.pack.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  
 </body>
 </html>
+
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://leesq.github.io/</link>
+    <link>http://example.org/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Apr 2019 16:49:21 +0800</lastBuildDate>
     
-	<atom:link href="http://leesq.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Blog</title>
-      <link>http://leesq.github.io/post/first/</link>
+      <link>http://example.org/post/first/</link>
       <pubDate>Fri, 26 Apr 2019 16:49:21 +0800</pubDate>
       
-      <guid>http://leesq.github.io/post/first/</guid>
+      <guid>http://example.org/post/first/</guid>
       <description> Hello Hugo ###使用hugo搭建个人博客站点 最简单的方式
 1.Hugo二进制下载地址:(https://github.com/spf13/hugo/releases) 解压，有个叫hugo.exe的程序。
 2.命令行方式 &amp;gt;hugo new site mysite
